@@ -1,0 +1,120 @@
+.header {
+    background-color: rgb(26, 148, 255);
+    ;
+}
+
+.page-header {
+    margin: 0 auto !important;
+    max-width: 1200px;
+}
+
+#btn-search {
+    background-color: rgb(13, 92, 182);
+    border: none;
+    right: 0;
+    color: white;
+}
+
+.product-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-sale {
+    border: 1px solid red;
+    color: red;
+    font-size: 12px;
+}
+
+.user {
+    text-align: left;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.close-btn {
+    position: absolute;
+    right: -27px;
+    top: -18px;
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-login {
+    background: linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.social-heading {
+    margin: 0px 0px 15px;
+    position: relative;
+}
+
+.social-heading::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: rgb(242, 242, 242);
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-heading span {
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    padding: 0px 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.social__items {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px 0px 10px;
+    list-style: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.note {
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    text-align: center;
+}
+
+.content h4 {
+    margin: 0px 0px 5px;
+    color: rgb(11, 116, 229);
+    font-size: 17px;
+}
+
+.content span {
+    font-size: 13px;
+    color: rgb(11, 116, 229);
+}
+
+.btn-cart {
+    padding-top: 6px;
+    text-align: right;
+}
